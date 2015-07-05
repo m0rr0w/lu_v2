@@ -1,0 +1,54 @@
+; $Id: ninesixty.info,v 1.1.2.5.4.2 2011/01/11 01:08:49 dvessel Exp $
+
+name = 960 Grid System For Luis Urrea dot com
+description = A blank base theme using the 960 Grid System. See the "README.txt" file within the theme folder for more information.
+screenshot = images/screenshot.png
+core = 7.x
+engine = phptemplate
+
+; Stylesheets. Anything within the "framework" folder will be placed before all others.
+stylesheets[all][] = styles/framework/reset.css
+stylesheets[all][] = styles/framework/text.css
+stylesheets[all][] = styles/framework/960.css
+stylesheets[all][] = styles/framework/debug.css
+
+; Theme specific styles. Any sub-themes should override this.
+stylesheets[all][] = styles/styles.css
+stylesheets[all][] = styles/design.css
+
+; Add in our conditional stylesheets
+; Set the conditional stylesheets that are processed by IE.
+stylesheets-conditional[lt IE 7][all][] = styles/cs/ie6-and-below.css
+stylesheets-conditional[IE 7][all][] = styles/cs/ie7.css
+stylesheets-conditional[IE 8][all][] = styles/cs/ie8.css
+stylesheets-conditional[IE 9][all][] = styles/cs/ie9.css
+
+; Add in our additional Javascript
+;scripts[] = js/colorBoxLanding.js
+
+
+regions[page_top]           = Page top
+regions[header]             = Header
+regions[home_page_header]   = Home Page Header
+regions[search_box]         = Search Box
+regions[highlighted]        = Highlight
+regions[help]               = Help
+regions[slide_show]         = Carousel ~ Slideshow
+regions[content]            = Content
+regions[tryptic_first]	    = Triptych First
+regions[tryptic_middle]	    = Triptych Middle
+regions[tryptic_last]	    = Triptych Last
+regions[sidebar_first]      = Left sidebar
+regions[sidebar_second]     = Right sidebar
+regions[primum_inferiores]  = Primum Inferiores
+regions[secundum_inferiores]= Secundum Inferiores
+regions[tertia_inferiores]  = Tertia Inferiores
+regions[cuatro_inferiores]  = Cuatro Inferiores
+regions[footer]             = Footer
+regions[page_bottom]        = Page bottom
+
+; Information added by drupal.org packaging script on 2011-01-11
+version = "7.x-1.0"
+core = "7.x"
+project = "ninesixty"
+datestamp = "1294708616"
