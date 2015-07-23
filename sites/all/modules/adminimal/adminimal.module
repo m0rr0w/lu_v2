@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Adminimal feature.
+ */
+
+include_once 'adminimal.features.inc';
