@@ -1,8 +1,0 @@
-filename = "luisurrea.com-2015-06-29T16-45-12"
-description = ""
-datestamp = "1435614316"
-generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
-generatorversion = "7.x-2.x"
-sites[0][version] = "7.38"
-sites[0][name] = "luisurrea.com"
-sites[0][url] = "http://www.luisurrea.com/"
